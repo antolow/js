@@ -1,0 +1,51 @@
+.piece {
+    height: 250px;
+    width: 500px;
+}
+
+.coup {
+    background-color: rgb(210, 192, 30);
+}
+
+.img {
+    height: 100%;
+    transition: all 1s cubic-bezier(0,.27,.71,.97) 0s;
+}
+ 
+.img:hover {
+    transform: rotate(360deg);
+}
+
+.square {
+    background-color: coral;
+}
+
+.square-el {
+ background-color: cornflowerblue;
+ height: 100px;
+ width: 100px;
+ transition: 1s ;
+}
+ 
+.square-el:hover {
+    height: 200px;
+    width: 200px;
+}
+
+.circle {
+    background-color: rgb(211, 51, 83);
+}
+
+.circle-el {
+    background-color: darkmagenta;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    transition: 1s ;
+}
+.circle-el:hover {
+    background-color: rgb(189, 116, 221);
+    border-radius: 150px;
+}
