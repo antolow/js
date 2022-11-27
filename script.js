@@ -1,28 +1,24 @@
 
 
-function grade(a) {
-    if (a >=90) {
-        console.log('A')
-    }
-    if (a >=80) {
-        console.log('B')
-    }
-    if (a >=70) {
-        console.log('C')
-    }
-    if (a >=60) {
-        console.log('D')
-    }
-    else {
-        console.log('F')
-    }
-}
+let arr = [1, 2, 3];
+console.log(arr)
 
-grade(65)
+let arr2 = [1, 2, 3];
+arr2.push(4, 5)
+console.log(arr2)
+
+let array = [1, 2, 30, 4];
+let sum = 0;
+for(let i = 0; i < array.length; i++) {
+    sum+=array[i]
+} 
+console.log(sum)
+
+let name = prompt("Введите имя")
+let surName = prompt("Введите фамилию")
+let age = prompt("Введите возраст")
+
+let form = [name, surName, age]
+console.log(form)
 
 
-function check(a) {
-        console.log(a.toLowerCase(a))
-}
-
-check(DFLK)
