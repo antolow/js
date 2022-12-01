@@ -1,9 +1,10 @@
 
 
 let arr = [1, 2, 3];
-console.log(arr[0])
-console.log(arr[1])
-console.log(arr[2])
+for (let i=0; i<=3; i++){
+
+}
+console.log(arr)
 
 let arr2 = [1, 2, 3];
 arr2.push(4, 5)
@@ -16,11 +17,14 @@ for(let i = 0; i < array.length; i++) {
 } 
 console.log(sum)
 
-let name = prompt("Введите имя")
-let surName = prompt("Введите фамилию")
-let age = prompt("Введите возраст")
+let names = prompt("Введите имя, фамилию и возраст")
+console.log(names)
 
-let form = [name, surName, age]
-console.log(form)
+let arr4 = names.split(' ')
+let name = arr4[0]
+let surName = arr4[1]
+let age = arr4[2]
+// let form = [name, surName, age]
+console.log(arr4)
 
 
